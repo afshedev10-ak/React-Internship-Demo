@@ -98,16 +98,6 @@ This repository does not include a license file. Add one (e.g., MIT) if you inte
 ---
 File created as an additional detailed README for developer reference.
 
-## Screenshots
-
-Add the project screenshots to `public/screenshots/` (create the folder if needed). Example filenames below — replace with your actual files.
-
-![Homepage banner and categories](public/screenshots/screenshot-1.png)
-![Recommended items and services](public/screenshots/screenshot-2.png)
-![Services, suppliers and footer](public/screenshots/screenshot-3.png)
-![Product grid / category listing](public/screenshots/screenshot-4.png)
-![Product detail page](public/screenshots/screenshot-5.png)
-
 
 This project was completed during my Frontend Developer Internship at Developers Hub Corporation. It helped me strengthen my React development skills and gain practical industry experience.
 
