@@ -1,0 +1,13 @@
+.section {max-width: 1200px; margin: 16px auto; padding: 0 }
+.header {display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid #e0e0e0; }
+.header h3 { font-size: 15px; font-weight: 700; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.grid > * { border-radius: 0; border: none; border-right: 1px solid #e0e0e0; }
+.grid > *:last-child { border-right: none; }
+
+
+

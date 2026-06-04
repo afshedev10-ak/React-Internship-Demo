@@ -1,0 +1,60 @@
+.footer { background: #fff; border-top: 1px solid #e0e0e0; margin-top: 24px; }
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 16px 24px;
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr);
+  gap: 24px;
+}
+.brand .logo { display: flex; align-items: center; gap: 6px; font-size: 17px; font-weight: 700; color: #0d6efd; margin-bottom: 10px; }
+.brand p { font-size: 12px; color: #777; line-height: 1.5; margin-bottom: 12px; }
+.socials { display: flex; gap: 10px; }
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  color: #555;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+.socials a:hover {
+  border-color: #0d6efd;
+  color: #0d6efd;
+  background: #eef4ff;
+}
+.colTitle { font-size: 13px; font-weight: 700; margin-bottom: 12px; }
+.col ul { display: flex; flex-direction: column; gap: 8px; list-style: none;}
+.col ul li a { font-size: 12px; color: #555; }
+.col ul li a:hover { color: #0d6efd; }
+.appBtns { display: flex; flex-direction: column; gap: 8px; }
+.appBtn {
+  display: block;
+  background: #1c1c1c;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 11px;
+  text-align: center;
+}
+.appBtn:hover { background: #333; }
+.bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #888;
+}
+
+
+
+

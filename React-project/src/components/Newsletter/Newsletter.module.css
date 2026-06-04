@@ -1,0 +1,71 @@
+.section {
+  max-width: 700px;
+  width: 100%;
+  margin: 16px auto;
+  padding: 0;
+}
+.inner {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  min-height: 180px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+.sub {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: 380px;
+  margin: 0 auto;
+  align-items: center;
+}
+.inputWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px 0 0 12px;
+  padding: 0 12px;
+  background: #f9fafb;
+  max-width: 500px;
+  min-height: 48px;
+}
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 13px;
+  font-family: inherit;
+  color: #111827;
+}
+.subscribeBtn {
+  min-height: 48px;
+  padding: 10px 22px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.subscribeBtn:hover {
+  background: #1d4ed8;
+}
+
